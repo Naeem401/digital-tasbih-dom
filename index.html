@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Digital Tasbih</title>
+</head>
+<body>
+    <main class="lg:m-10 m-5">
+        <div class="title"><h2 class="mb-4 text-center lg:mt-20 font-extrabold text-3xl md:text-5xl lg:text-6xl text-[#35baee]">Digital <span class="text-[#06976d]"> Tasbih</span></h2></div>
+
+
+<section class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center w-full mt-5 lg:mt-20 gap-3 lg:gap-5 max-w-7xl">
+
+     <!-- SubhanallahContainer Start -->
+     <div class="text-center rounded-xl shadow-md">
+     <div class="p-6">
+         <h5 class="mb-2 text-xl font-semibold">
+             Subhan Allah
+         </h5>
+         <p id="subhanAllahDisplay"
+             class="text-4xl font-light">
+             0</p>
+     </div>
+     <div class="p-6 pt-0">
+         <button id="subhanAllahIncrimentBtn" class="rounded-lg bg-[#22c55e] py-3 px-6 text-center text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40">
+             Incriment
+         </button>
+         <button id="subhanAllahDecrimentBtn" class="rounded-lg bg-[#ef4444] py-3 px-6 text-center text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40">
+             Decriment
+         </button>
+     </div>
+ </div>
+ <!-- SubhanallahContainer End -->
+
+
+     <!-- AlhamdulillahContainer Start -->
+     <div class="text-center rounded-xl shadow-md">
+     <div class="p-6">
+         <h5 class="mb-2 text-xl font-semibold">
+            Alhamdulilah
+         </h5>
+         <p id="alhamdulillahDisplay"
+             class="text-4xl font-light">
+             0</p>
+     </div>
+     <div class="p-6 pt-0">
+         <button id="alhamdulillahIncrimentBtn" class="rounded-lg bg-[#22c55e] py-3 px-6 text-center text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40">
+             Incriment
+         </button>
+         <button id="alhamdulillahDecrimentBtn" class="rounded-lg bg-[#ef4444] py-3 px-6 text-center text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40">
+             Decriment
+         </button>
+     </div>
+ </div>
+ <!-- AlhamdulillahContainer End -->
+
+
+     <!-- AllahuakberContaine Start -->
+     <div class="text-center rounded-xl shadow-md">
+     <div class="p-6">
+         <h5 class="mb-2 text-xl font-semibold">
+            Allahuakber
+         </h5>
+         <p id="allahAkberDisplay"
+             class="text-4xl font-light">
+             0</p>
+     </div>
+     <div class="p-6 pt-0">
+         <button id="allahAkberIncrimentBtn" class="rounded-lg bg-[#22c55e] py-3 px-6 text-center text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40">
+             Incriment
+         </button>
+         <button id="allahAkberDecrimentBtn" class="rounded-lg bg-[#ef4444] py-3 px-6 text-center text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40">
+             Decriment
+         </button>
+     </div>
+ </div>
+ <!-- AllahuakberContaine End -->
+</section>
+  <!-- ResetContainer Start -->
+  <div class="lg:mt-10 mt-5 flex justify-center">
+    <button id="resetBtn" class="rounded-lg bg-[#edbe2c] py-3 px-6 text-center text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40">
+        Reset All Tasbih
+    </button>
+</div>
+  <!-- ResetContainer End -->
+    </main>
+    <script src="coustum.js"></script>
+</body>
+</html>
